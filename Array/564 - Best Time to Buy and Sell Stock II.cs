@@ -8,8 +8,7 @@ public class Solution {
         int min = 0;
         int max = 0;
         int result = 0;
-        int index = 0;
-        
+        int index = 0;        
         
         while(index < prices.Length - 1) {
             
