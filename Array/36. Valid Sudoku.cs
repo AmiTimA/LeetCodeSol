@@ -11,7 +11,7 @@ public class Solution {
         for (int i = 0; i < 9; i++) {
             bool[] m = new bool[9];
             for (int j = 0; j < 9; j++) {
-                if (board[i, j] != '.') {
+                if (board[i, j] != '.') { // this step is imp, we usually forget this
                     if (m[(int)(board[i, j] - '1')]) {
                         return false;
                     }
