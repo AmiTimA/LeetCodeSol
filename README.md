@@ -1,3 +1,3 @@
-# LeetCodeSol
+# LeetCode Solution
 
 Solution for LeetCode Problems.
