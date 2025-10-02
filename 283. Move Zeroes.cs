@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/move-zeroes/description/
 // https://www.geeksforgeeks.org/move-zeroes-end-array/
 
-public class Solution {
+public class Solution283 {
     public void MoveZeroes(int[] nums) {
         int index = 0;
         

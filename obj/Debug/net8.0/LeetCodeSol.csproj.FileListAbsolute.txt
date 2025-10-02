@@ -1,0 +1,15 @@
+/workspaces/LeetCodeSol/obj/Debug/net8.0/LeetCodeSol.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/LeetCodeSol/obj/Debug/net8.0/LeetCodeSol.AssemblyInfoInputs.cache
+/workspaces/LeetCodeSol/obj/Debug/net8.0/LeetCodeSol.AssemblyInfo.cs
+/workspaces/LeetCodeSol/obj/Debug/net8.0/LeetCodeSol.csproj.CoreCompileInputs.cache
+/workspaces/LeetCodeSol/obj/Debug/net8.0/LeetCodeSol.sourcelink.json
+/workspaces/LeetCodeSol/bin/Debug/net8.0/LeetCodeSol
+/workspaces/LeetCodeSol/bin/Debug/net8.0/LeetCodeSol.deps.json
+/workspaces/LeetCodeSol/bin/Debug/net8.0/LeetCodeSol.runtimeconfig.json
+/workspaces/LeetCodeSol/bin/Debug/net8.0/LeetCodeSol.dll
+/workspaces/LeetCodeSol/bin/Debug/net8.0/LeetCodeSol.pdb
+/workspaces/LeetCodeSol/obj/Debug/net8.0/LeetCodeSol.dll
+/workspaces/LeetCodeSol/obj/Debug/net8.0/refint/LeetCodeSol.dll
+/workspaces/LeetCodeSol/obj/Debug/net8.0/LeetCodeSol.pdb
+/workspaces/LeetCodeSol/obj/Debug/net8.0/LeetCodeSol.genruntimeconfig.cache
+/workspaces/LeetCodeSol/obj/Debug/net8.0/ref/LeetCodeSol.dll

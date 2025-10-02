@@ -4,20 +4,25 @@
 // Rotate the image by 90 degrees (clockwise).
 
 // Method 1
-public class Solution {
-    public void Rotate(int[,] matrix) { // two-dimensional array
+public class Solution48
+{
+    public void Rotate(int[,] matrix)
+    { // two-dimensional array
 
         // Base Case
-        if (matrix == null || matrix.GetLength(0) < 2) {
+        if (matrix == null || matrix.GetLength(0) < 2)
+        {
             return;
         }
 
         // Find how many layers
         int size = matrix.GetLength(0);
-        int layers = size / 2;           
+        int layers = size / 2;
 
-        for (int i = 0; i < layers; i++) {
-            for (int j = i; j < size - i - 1; j++) {
+        for (int i = 0; i < layers; i++)
+        {
+            for (int j = i; j < size - i - 1; j++)
+            {
                 int temp = matrix[i, j];
 
                 matrix[i, j] = matrix[size - j - 1, i];
@@ -28,7 +33,7 @@ public class Solution {
 
                 matrix[j, size - i - 1] = temp;
             }
-        }        
+        }
     }
 } // Complexity => O(n.n)
 
@@ -36,7 +41,7 @@ public class Solution {
 // First reverse up to down, then swap the symmetry 
 // https://leetcode.com/problems/rotate-image/discuss/18872/A-common-method-to-rotate-the-image
 
-public class Solution {
+public class Solution48_2 {
     public void Rotate(int[,] matrix) {
         // Base Case
         if (matrix == null || matrix.GetLength(0) < 2) {
