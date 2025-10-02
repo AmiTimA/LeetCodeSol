@@ -1,14 +1,16 @@
-class Program
-{
-    static void Main(string[] args)
-    {
-        Trie obj = new Trie();
-        obj.Insert("apple");
-        Console.WriteLine($"apple: {obj.Search("apple")}");   // return True
-        Console.WriteLine($"app: {obj.Search("app")}");     // return False
-        Console.WriteLine($"app: {obj.StartsWith("app")}"); // return True
-    }
-}
+namespace LeetCode208;
+
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Trie obj = new Trie();
+//         obj.Insert("apple");
+//         Console.WriteLine($"apple: {obj.Search("apple")}");   // return True
+//         Console.WriteLine($"app: {obj.Search("app")}");     // return False
+//         Console.WriteLine($"app: {obj.StartsWith("app")}"); // return True
+//     }
+// }
 
 public class Node
 {
